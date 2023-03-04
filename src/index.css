@@ -1,0 +1,61 @@
+.hdr {
+  box-shadow: 5px 6px 6px -6px grey;
+  background-color: rgb(40, 37, 46);
+  width: 100%;
+}
+
+.logo {
+  width: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .nav-list {
+  list
+} */
+
+.nav-lists > li {
+  padding: 10px;
+}
+
+.ftr {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: goldenrod;
+}
+
+.logo2 {
+  display: flex;
+  align-items: center;
+}
+
+.logo2 > img {
+  padding: 5px;
+}
+.logo2 > p {
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(0, 233, 255);
+}
+
+.side-item {
+  color: white;
+}
+
+.main-content {
+  background-color: rgb(44, 46, 56);
+  color: white;
+  padding: 30px;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(44, 46, 56);
+}
