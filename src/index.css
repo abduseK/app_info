@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-color: rgb(44, 46, 56);
+}
+
 .hdr {
   box-shadow: 5px 6px 6px -6px grey;
   background-color: rgb(40, 37, 46);
@@ -14,12 +19,18 @@
   align-items: center;
 }
 
-/* .nav-list {
-  list
-} */
+.list-facts {
+  /* list-style: none; */
+  max-width: 400px;
+}
 
-.nav-lists > li {
-  padding: 10px;
+.list-facts > li {
+  padding: 5px;
+}
+
+.list-facts li::marker {
+  color: rgb(0, 233, 255);
+  font-size: 1.5rem;
 }
 
 .ftr {
@@ -34,6 +45,7 @@
 .logo2 {
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 
 .logo2 > img {
@@ -42,20 +54,26 @@
 .logo2 > p {
   padding: 5px;
   font-weight: bold;
+  font-size: 25px;
   color: rgb(0, 233, 255);
 }
 
 .side-item {
   color: white;
+  font-weight: 600;
 }
 
 .main-content {
   background-color: rgb(44, 46, 56);
   color: white;
   padding: 30px;
+  background-image: url("./reactjs-icon\ 2.png");
+  background-position: right 75%;
+  background-repeat: no-repeat;
 }
 
-body {
-  margin: 0;
-  background-color: rgb(44, 46, 56);
+.main-content > h1 {
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  font-size: 35px;
 }
